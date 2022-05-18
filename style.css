@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("full-bloom.png");
+}
+
+.wrapper {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(106, 173, 151);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding: 0 1rem;
+}
+
+header img {
+  background-color: rgb(158, 245, 244);
+  height: 3.5rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  padding-left: 2rem;
+}
+
+header nav a:hover {
+  color: rgb(232, 32, 32);
+  text-decoration: underline;
+}
+
+nav a:first-of-type {
+  padding: 0;
+}
+
+main {
+  display: flex;
+  background-color: white;
+  padding: 1rem;
+}
+
+main img {
+  width: 15rem;
+  float: left;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+}
+
+h2 {
+  padding-bottom: 0.5rem;
+}
+
+.container1 {
+  width: 35%;
+  padding-right: 0.5rem;
+  text-align: justify;
+}
+
+.container2 {
+  width: 65%;
+  padding-left: 0.5rem;
+  text-align: justify;
+}
+
+ul {
+  padding: 1rem 1rem;
+}
+
+.button {
+  background-color: rgb(177, 239, 212);
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
+}
+
+.right {
+  text-align: right;
+}
